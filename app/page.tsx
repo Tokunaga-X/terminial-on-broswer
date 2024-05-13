@@ -1,4 +1,6 @@
 import BackgroundImage from "@/components/BackGroundImage";
+import TerminalBox from "@/components/TerminalBox";
+
 export default function Home() {
   return (
 		<>
@@ -11,7 +13,7 @@ export default function Home() {
 							Visit this instead
 						</a>
 					</div>
-					{/* <TerminalBox /> */}
+					<TerminalBox />
 				</div>
 			</div>
 			<BackgroundImage />
