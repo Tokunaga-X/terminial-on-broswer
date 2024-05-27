@@ -19,6 +19,6 @@ Nextjs\tailwindCss
 ## TODO
 
 - ~~create layout~~
-- make it can run command
+- make it running
 - support more command
-- make it support chinese
+- make it support Chinese
