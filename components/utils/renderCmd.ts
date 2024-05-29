@@ -1,4 +1,4 @@
-import Help from "../commands/Welcome";
+import Help from "../commands/Help";
 import NotFound from "../commands/NotFound";
 
 type CmdHistory = {
@@ -9,6 +9,7 @@ type CmdHistory = {
 
 
 function renderCmd(cmd: string): CmdHistory {
+	console.log("🚀 ~ renderCmd ~ cmd:", cmd)
 	switch (cmd) {
 		case "ls":
 			return {
