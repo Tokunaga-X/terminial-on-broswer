@@ -4,15 +4,15 @@ import CmdTextDisplay from "./CmdTextDisplay";
 import React from "react";
 
 interface ReadOnlyCmdInputProps {
-	cmd: string;
-	time: string;
+  cmd: string;
+  time: string;
 }
 
 export default function ReadOnlyCmdInput({ cmd, time }: ReadOnlyCmdInputProps) {
-	return (
-		<BaseCmdInput
-			CmdStatus={<CmdStatus cmd={cmd} />}
-			Children={<CmdTextDisplay cmd={cmd} time={time} />}
-		/>
-	);
+  return (
+    <BaseCmdInput
+      CmdStatus={<CmdStatus cmd={cmd} />}
+      Children={<CmdTextDisplay cmd={cmd} time={time} />}
+    />
+  );
 }
