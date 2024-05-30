@@ -15,15 +15,15 @@ export default function TerminalBox() {
 
   const [enteredCmd, setEnteredCmd] = useState([
     {
-      cmd: "",
+      cmd: "whois",
       Component: Welcome,
       time: new Date().toLocaleTimeString(),
     },
-    {
-      cmd: "ls",
-      Component: Help,
-      time: new Date().toLocaleTimeString(),
-    },
+    // {
+    //   cmd: "ls",
+    //   Component: Help,
+    //   time: new Date().toLocaleTimeString(),
+    // },
   ]);
 
   useEffect(() => {
