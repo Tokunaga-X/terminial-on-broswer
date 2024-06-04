@@ -1,3 +1,4 @@
+import About from "../commands/About";
 import Help from "../commands/Help";
 import NotFound from "../commands/NotFound";
 
@@ -9,7 +10,6 @@ type CmdHistory = {
 
 
 function renderCmd(cmd: string): CmdHistory {
-	console.log("🚀 ~ renderCmd ~ cmd:", cmd)
 	switch (cmd) {
 		case "ls":
 			return {
@@ -17,12 +17,19 @@ function renderCmd(cmd: string): CmdHistory {
 				Component: Help,
 				time: "",
 			};
-		default:
-			return {
-				cmd,
-				Component: NotFound,
-				time: "",
-			};
+	case "about": {
+		return {
+			cmd,
+			Component: About,
+			time: "",
+		};
+	}
+	default:
+		return {
+			cmd,
+			Component: NotFound,
+			time: "",
+		};
 	}
 }
 

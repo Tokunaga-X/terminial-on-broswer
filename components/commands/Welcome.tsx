@@ -7,7 +7,7 @@ export default function Welcome() {
         Welcome
       </h1>
       <p className="text-gray-400 text-center">Don't know what to do?</p>
-      <p className="text-gray-400 text-center">try command like ls, pwd...</p>
+      <p className="text-gray-400 text-center">try command like ls, about</p>
       <p className="text-sm text-gray-600 text-center">
         copyright by... no one
       </p>
