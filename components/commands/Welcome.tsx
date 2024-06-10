@@ -6,7 +6,7 @@ export default function Welcome() {
       <h1 className="font-fascinate text-6xl font-bold uppercase text-red-400 text-center">
         Welcome
       </h1>
-      <p className="text-gray-400 text-center">Don't know what to do?</p>
+      <p className="text-gray-400 text-center">Don‘t know what to do?</p>
       <p className="text-gray-400 text-center">try command like ls, about</p>
       <p className="text-sm text-gray-600 text-center">
         copyright by... no one
