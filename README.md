@@ -22,3 +22,4 @@ Nextjs\tailwindCss
 - ~~make it running~~
 - support more command
 - make 3d running in it
+- make docker copy of it
