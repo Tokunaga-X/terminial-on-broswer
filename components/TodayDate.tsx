@@ -1,7 +1,8 @@
 export default function TodayDate() {
   const renderDate = () => {
     const date = new Date();
-    return date.toDateString();
+    const options = { timeZone: "UTC" }; // 设置时区为UTC
+    return date.toLocaleDateString(undefined, options);
   };
   return (
     <div>
